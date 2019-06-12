@@ -5,6 +5,7 @@ class Ball {
         this.radius;
     }
     show(){
-        
+        //console.log(this.centerX);
+        circle(this.centerX, this.centerY, this.radius);
     }
 }
